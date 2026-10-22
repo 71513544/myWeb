@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MyWeb 是一個現代化的響應式網站範例，適合手機、平板與桌電瀏覽。"
+    />
+    <title>MyWeb | RWD 企業品牌網站</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo" aria-label="MyWeb 首頁">My<span>Web</span></a>
+
+        <button class="nav-toggle" aria-label="開啟選單" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="主選單">
+          <a href="#about">關於</a>
+          <a href="#services">服務</a>
+          <a href="#work">案例</a>
+          <a href="#pricing">方案</a>
+          <a href="#contact" class="btn btn-primary">聯絡我們</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">讓品牌被看見</p>
+            <h1>打造一個適合所有裝置的數位體驗</h1>
+            <p class="lead">
+              我們協助品牌建立高轉換率的網站，從視覺設計、使用者體驗到行動裝置優化，
+              幫你在每一個螢幕尺寸中都留下一個強而有力的第一印象。
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">立即預約</a>
+              <a href="#services" class="btn btn-secondary">了解更多</a>
+            </div>
+            <ul class="hero-stats" aria-label="關鍵數據">
+              <li><strong>3.5k+</strong><span>客戶信任</span></li>
+              <li><strong>98%</strong><span>滿意度</span></li>
+              <li><strong>24/7</strong><span>支援服務</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="網站展示圖">
+            <div class="device laptop">
+              <div class="screen">
+                <div class="screen-header">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="screen-body">
+                  <div class="chart-bars">
+                    <span style="--h: 45%"></span>
+                    <span style="--h: 68%"></span>
+                    <span style="--h: 60%"></span>
+                    <span style="--h: 82%"></span>
+                    <span style="--h: 70%"></span>
+                  </div>
+                  <div class="metric-row">
+                    <div class="metric-card"><strong>+42%</strong><small>流量成長</small></div>
+                    <div class="metric-card"><strong>4.9/5</strong><small>客戶評價</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="device phone">
+              <div class="phone-screen">
+                <div class="phone-top"></div>
+                <div class="mini-card"></div>
+                <div class="mini-chart"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container narrow">
+          <div class="section-heading">
+            <p class="eyebrow">我們的理念</p>
+            <h2>把複雜的數位需求，變成簡單順暢的體驗</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>使用者導向</h3>
+              <p>
+                從使用者旅程出發，設計每個互動都更直觀、更高效，讓品牌用最自然的方式與客戶建立連結。
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>精準執行</h3>
+              <p>
+                結合策略、設計與技術，將品牌願景轉化為可實際提升業績與品牌價值的數位資產。
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>持續成長</h3>
+              <p>
+                我們重視數據與回饋，不斷優化網站體驗，讓每一次更新都為品牌帶來更好的成長動能。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">服務項目</p>
+            <h2>從品牌定位到網站落地的一站式服務</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="icon">◎</div>
+              <h3>品牌網站設計</h3>
+              <p>打造符合品牌風格的現代化網站，提升專業感與信任感。</p>
+            </article>
+            <article class="service-card">
+              <div class="icon">◎</div>
+              <h3>RWD 響應式開發</h3>
+              <p>讓網站在手機、平板、桌電等不同裝置上都保持最佳瀏覽體驗。</p>
+            </article>
+            <article class="service-card">
+              <div class="icon">◎</div>
+              <h3>SEO 與轉換優化</h3>
+              <p>優化內容結構與頁面表現，提升流量品質與轉換機會。</p>
+            </article>
+            <article class="service-card">
+              <div class="icon">◎</div>
+              <h3>數據追蹤分析</h3>
+              <p>整合 GA、熱圖與轉換指標，讓行銷決策更有依據。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">案例實績</p>
+            <h2>聚焦品牌成長的數位成果</h2>
+          </div>
+
+          <div class="case-grid">
+            <article class="case-card">
+              <div class="case-image image-one"></div>
+              <div class="case-content">
+                <span>電商品牌</span>
+                <h3>提升轉換率 38%</h3>
+                <p>重新設計購物流程與產品頁面，讓手機端購買體驗大幅改善。</p>
+              </div>
+            </article>
+
+            <article class="case-card">
+              <div class="case-image image-two"></div>
+              <div class="case-content">
+                <span>服務型企業</span>
+                <h3>提升詢價量 52%</h3>
+                <p>透過清晰的服務內容、數據導向設計與互動節奏，增加線索轉化。</p>
+              </div>
+            </article>
+
+            <article class="case-card">
+              <div class="case-image image-three"></div>
+              <div class="case-content">
+                <span>個人品牌</span>
+                <h3>提升曝光與信任</h3>
+                <p>建立更強的視覺識別與內容架構，讓品牌在社群與搜尋中更被看見。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">方案選擇</p>
+            <h2>適合不同階段的品牌發展需求</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card">
+              <h3>Starter</h3>
+              <div class="price">$1,990<span>/月</span></div>
+              <ul>
+                <li>單頁式品牌網站</li>
+                <li>RWD 響應式設計</li>
+                <li>基礎 SEO</li>
+                <li>1 次內容優化</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary">選擇方案</a>
+            </article>
+
+            <article class="price-card featured">
+              <div class="badge">最熱門</div>
+              <h3>Growth</h3>
+              <div class="price">$4,990<span>/月</span></div>
+              <ul>
+                <li>多頁式企業網站</li>
+                <li>進階功能設計</li>
+                <li>分析與轉換優化</li>
+                <li>定期維護支援</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">選擇方案</a>
+            </article>
+
+            <article class="price-card">
+              <h3>Enterprise</h3>
+              <div class="price">客製化</div>
+              <ul>
+                <li>完整品牌系統</li>
+                <li>數位體驗設計</li>
+                <li>高級行銷整合</li>
+                <li>專屬策略顧問</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary">聯絡我們</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="#home" class="logo footer-logo">My<span>Web</span></a>
+          <p>讓每個裝置都成為品牌的最佳展示舞台。</p>
+        </div>
+
+        <div class="contact-block">
+          <h3>聯絡我們</h3>
+          <a href="mailto:hello@myweb.example">hello@myweb.example</a>
+          <a href="tel:+886212345678">+886 2 1234 5678</a>
+        </div>
+      </div>
+      <div class="container copyright">
+        <p>© <span id="year"></span> MyWeb. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
